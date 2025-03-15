@@ -1,0 +1,52 @@
+# Ignore Gradle files
+.gradle/
+build/
+out/
+**/build/
+**/out/
+
+# Ignore Gradle wrapper (if you don't want to include it)
+!gradle-wrapper.jar
+
+# Ignore IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore local configuration files
+*.properties
+*.log
+*.class
+
+# Ignore dependency directories
+**/node_modules/
+**/target/
+**/bin/
+**/lib/
+
+# Ignore generated sources
+**/generated/
+
+# Ignore local development files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Gradle cache
+**/.gradle/
+**/.m2/
+**/.cache/
+
+# Ignore test reports
+**/test-results/
+**/reports/
+
+# Ignore local environment files
+.env
+.env.local
